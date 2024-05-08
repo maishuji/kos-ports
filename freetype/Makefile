@@ -1,6 +1,6 @@
 # Port Metadata
 PORTNAME =          freetype
-PORTVERSION =       2.10.2
+PORTVERSION =       2.13.2
 
 MAINTAINER =        Lawrence Sebald <ljsebald@users.sourceforge.net>
 LICENSE =           FreeType License or GPLv2 (see docs/LICENSE.TXT in the source distribution)
@@ -17,7 +17,7 @@ DEPENDENCIES =      libbz2 zlib libpng
 
 # What files we need to download, and where from.
 DOWNLOAD_SITE =     https://download.savannah.gnu.org/releases/freetype/
-DOWNLOAD_FILES =    freetype-2.10.2.tar.gz
+DOWNLOAD_FILES =    freetype-2.13.2.tar.gz
 
 TARGET =            libfreetype.a
 HDR_FULLDIR =       freetype2
