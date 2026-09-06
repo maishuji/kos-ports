@@ -15,9 +15,11 @@ NOCOPY_TARGET =     1
 # FreeType optionally uses bz2lib, zlib, and libpng. Provide them.
 DEPENDENCIES =      libbz2 zlib libpng
 
-# What files we need to download, and where from.
-DOWNLOAD_SITES =    https://download.savannah.gnu.org/releases/freetype/ \
-                    https://sourceforge.net/projects/freetype/files/freetype2/2.13.3/
+# Prefer the direct SourceForge download URL because automated fetches against
+# Savannah have intermittently returned an HTML error page with a 200/504-style
+# response body. Keep Savannah as a fallback when it behaves correctly.
+DOWNLOAD_SITES =    https://downloads.sourceforge.net/project/freetype/freetype2/${PORTVERSION} \
+                    https://download.savannah.gnu.org/releases/freetype
 DOWNLOAD_FILES =    freetype-2.13.3.tar.gz
 
 TARGET =            libfreetype.a

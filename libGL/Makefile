@@ -19,10 +19,17 @@ EXAMPLES_DIR =      samples
 # flags. Remove this argument to create a build without overriding $KOS_CFLAGS.
 # Add -DBUILD_SAMPLES=OFF and/or -DBUILD_TESTS=OFF to speed up compilation by skipping
 # the compilation of GLdc's samples and tests.
-CMAKE_ARGS =        -DCMAKE_BUILD_TYPE=Release
+CMAKE_ARGS =        -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTS=OFF
 
+# Upstream still wires zclip_test through the samples block on this snapshot,
+# so drop it after unpack to keep the port building only distributable outputs.
+PREBUILD =          libgl_prebuild
 PREINSTALL =        move_samples
 
 include ${KOS_PORTS}/scripts/kos-ports.mk
+
+libgl_prebuild:
+	sed -i '/gen_sample(zclip_test tests\/zclip\/main.cpp)/d' build/${PORTNAME}-${PORTVERSION}/CMakeLists.txt
+
 move_samples:
 	@mv build/${PORTNAME}-${PORTVERSION}/*.elf build/${PORTNAME}-${PORTVERSION}/samples 2>/dev/null || true

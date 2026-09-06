@@ -1,0 +1,269 @@
+# This file is a shell script that caches the results of configure
+# tests run on this system so they can be shared between configure
+# scripts and configure runs, see configure's option --config-cache.
+# It is not useful on other systems.  If it contains results you don't
+# want to keep, you may remove or edit it.
+#
+# config.status only pays attention to the cache file if you give it
+# the --recheck option to rerun configure.
+#
+# 'ac_cv_env_foo' variables (set or unset) will be overridden when
+# loading this file, other *unset* 'ac_cv_foo' will be assigned the
+# following values.
+
+ac_cv_build=${ac_cv_build=x86_64-pc-linux-gnu}
+ac_cv_c_bigendian=${ac_cv_c_bigendian=no}
+ac_cv_c_compiler_gnu=${ac_cv_c_compiler_gnu=yes}
+ac_cv_c_const=${ac_cv_c_const=yes}
+ac_cv_c_inline=${ac_cv_c_inline=inline}
+ac_cv_c_restrict=${ac_cv_c_restrict=__restrict}
+ac_cv_cxx_compiler_gnu=${ac_cv_cxx_compiler_gnu=yes}
+ac_cv_env_ARM_NEON_INTR_CFLAGS_set=
+ac_cv_env_ARM_NEON_INTR_CFLAGS_value=
+ac_cv_env_BROTLI_CFLAGS_set=
+ac_cv_env_BROTLI_CFLAGS_value=
+ac_cv_env_BROTLI_LIBS_set=
+ac_cv_env_BROTLI_LIBS_value=
+ac_cv_env_BZIP2_CFLAGS_set=set
+ac_cv_env_BZIP2_CFLAGS_value=-I/opt/toolchains/dc/kos/../kos-ports/include/bzlib
+ac_cv_env_BZIP2_LIBS_set=set
+ac_cv_env_BZIP2_LIBS_value=-lbz2
+ac_cv_env_CCASFLAGS_set=
+ac_cv_env_CCASFLAGS_value=
+ac_cv_env_CCAS_set=
+ac_cv_env_CCAS_value=
+ac_cv_env_CCC_set=
+ac_cv_env_CCC_value=
+ac_cv_env_CC_set=set
+ac_cv_env_CC_value=kos-cc
+ac_cv_env_CFLAGS_set=
+ac_cv_env_CFLAGS_value=
+ac_cv_env_CPPFLAGS_set=
+ac_cv_env_CPPFLAGS_value=
+ac_cv_env_CPP_set=
+ac_cv_env_CPP_value=
+ac_cv_env_CXXCPP_set=
+ac_cv_env_CXXCPP_value=
+ac_cv_env_CXXFLAGS_set=
+ac_cv_env_CXXFLAGS_value=
+ac_cv_env_CXX_set=
+ac_cv_env_CXX_value=
+ac_cv_env_DEPS_CFLAGS_set=set
+ac_cv_env_DEPS_CFLAGS_value='-I/opt/toolchains/dc/kos/../kos-ports/include -I/opt/toolchains/dc/kos/../kos-ports/include/opus'
+ac_cv_env_DEPS_LIBS_set=set
+ac_cv_env_DEPS_LIBS_value='-lopus -logg'
+ac_cv_env_DOCBOOK_TO_MAN_set=
+ac_cv_env_DOCBOOK_TO_MAN_value=
+ac_cv_env_HARFBUZZ_CFLAGS_set=
+ac_cv_env_HARFBUZZ_CFLAGS_value=
+ac_cv_env_HARFBUZZ_LIBS_set=
+ac_cv_env_HARFBUZZ_LIBS_value=
+ac_cv_env_LDFLAGS_set=
+ac_cv_env_LDFLAGS_value=
+ac_cv_env_LIBPNG_CFLAGS_set=set
+ac_cv_env_LIBPNG_CFLAGS_value='-I/opt/toolchains/dc/kos/../kos-ports/include/png -std=gnu11'
+ac_cv_env_LIBPNG_LIBS_set=set
+ac_cv_env_LIBPNG_LIBS_value=-lpng
+ac_cv_env_LIBRSVG_CFLAGS_set=
+ac_cv_env_LIBRSVG_CFLAGS_value=
+ac_cv_env_LIBRSVG_LIBS_set=
+ac_cv_env_LIBRSVG_LIBS_value=
+ac_cv_env_LIBS_set=
+ac_cv_env_LIBS_value=
+ac_cv_env_LT_SYS_LIBRARY_PATH_set=
+ac_cv_env_LT_SYS_LIBRARY_PATH_value=
+ac_cv_env_PKG_CONFIG_LIBDIR_set=
+ac_cv_env_PKG_CONFIG_LIBDIR_value=
+ac_cv_env_PKG_CONFIG_PATH_set=
+ac_cv_env_PKG_CONFIG_PATH_value=
+ac_cv_env_PKG_CONFIG_set=
+ac_cv_env_PKG_CONFIG_value=
+ac_cv_env_URL_DEPS_CFLAGS_set=
+ac_cv_env_URL_DEPS_CFLAGS_value=
+ac_cv_env_URL_DEPS_LIBS_set=
+ac_cv_env_URL_DEPS_LIBS_value=
+ac_cv_env_X86_AVX_CFLAGS_set=
+ac_cv_env_X86_AVX_CFLAGS_value=
+ac_cv_env_X86_SSE2_CFLAGS_set=
+ac_cv_env_X86_SSE2_CFLAGS_value=
+ac_cv_env_X86_SSE4_1_CFLAGS_set=
+ac_cv_env_X86_SSE4_1_CFLAGS_value=
+ac_cv_env_X86_SSE_CFLAGS_set=
+ac_cv_env_X86_SSE_CFLAGS_value=
+ac_cv_env_ZLIB_CFLAGS_set=set
+ac_cv_env_ZLIB_CFLAGS_value=-I/opt/toolchains/dc/kos/../kos-ports/include/zlib
+ac_cv_env_ZLIB_LIBS_set=set
+ac_cv_env_ZLIB_LIBS_value=-lz
+ac_cv_env_build_alias_set=
+ac_cv_env_build_alias_value=
+ac_cv_env_host_alias_set=set
+ac_cv_env_host_alias_value=sh-elf
+ac_cv_env_target_alias_set=
+ac_cv_env_target_alias_value=
+ac_cv_func___malloc_hook=${ac_cv_func___malloc_hook=no}
+ac_cv_func_getpagesize=${ac_cv_func_getpagesize=no}
+ac_cv_func_lrint=${ac_cv_func_lrint=yes}
+ac_cv_func_lrintf=${ac_cv_func_lrintf=yes}
+ac_cv_func_memcmp_working=${ac_cv_func_memcmp_working=no}
+ac_cv_func_mmap_fixed_mapped=${ac_cv_func_mmap_fixed_mapped=no}
+ac_cv_header_dlfcn_h=${ac_cv_header_dlfcn_h=no}
+ac_cv_header_fcntl_h=${ac_cv_header_fcntl_h=yes}
+ac_cv_header_inttypes_h=${ac_cv_header_inttypes_h=yes}
+ac_cv_header_memory_h=${ac_cv_header_memory_h=yes}
+ac_cv_header_minix_config_h=${ac_cv_header_minix_config_h=no}
+ac_cv_header_stdc=${ac_cv_header_stdc=yes}
+ac_cv_header_stdint_h=${ac_cv_header_stdint_h=yes}
+ac_cv_header_stdio_h=${ac_cv_header_stdio_h=yes}
+ac_cv_header_stdlib_h=${ac_cv_header_stdlib_h=yes}
+ac_cv_header_string_h=${ac_cv_header_string_h=yes}
+ac_cv_header_strings_h=${ac_cv_header_strings_h=yes}
+ac_cv_header_sys_param_h=${ac_cv_header_sys_param_h=yes}
+ac_cv_header_sys_stat_h=${ac_cv_header_sys_stat_h=yes}
+ac_cv_header_sys_types_h=${ac_cv_header_sys_types_h=yes}
+ac_cv_header_unistd_h=${ac_cv_header_unistd_h=yes}
+ac_cv_header_windows_h=${ac_cv_header_windows_h=no}
+ac_cv_host=${ac_cv_host=sh-unknown-elf}
+ac_cv_lib_m_cos=${ac_cv_lib_m_cos=yes}
+ac_cv_objext=${ac_cv_objext=o}
+ac_cv_path_EGREP=${ac_cv_path_EGREP='/usr/bin/grep -E'}
+ac_cv_path_EGREP_TRADITIONAL=${ac_cv_path_EGREP_TRADITIONAL='/usr/bin/grep -E'}
+ac_cv_path_FGREP=${ac_cv_path_FGREP='/usr/bin/grep -F'}
+ac_cv_path_GREP=${ac_cv_path_GREP=/usr/bin/grep}
+ac_cv_path_SED=${ac_cv_path_SED=/usr/bin/sed}
+ac_cv_path_ac_pt_PKG_CONFIG=${ac_cv_path_ac_pt_PKG_CONFIG=/usr/bin/pkg-config}
+ac_cv_path_install=${ac_cv_path_install='/usr/bin/install -c'}
+ac_cv_path_lt_DD=${ac_cv_path_lt_DD=/usr/bin/dd}
+ac_cv_path_mkdir=${ac_cv_path_mkdir=/usr/bin/mkdir}
+ac_cv_prog_AR=${ac_cv_prog_AR=/opt/toolchains/dc/sh-elf/bin/sh-elf-gcc-ar}
+ac_cv_prog_AWK=${ac_cv_prog_AWK=gawk}
+ac_cv_prog_CC=${ac_cv_prog_CC=kos-cc}
+ac_cv_prog_CC_BUILD=${ac_cv_prog_CC_BUILD=gcc}
+ac_cv_prog_CPP=${ac_cv_prog_CPP='kos-cc -E'}
+ac_cv_prog_CXX=${ac_cv_prog_CXX=sh-elf-g++}
+ac_cv_prog_CXXCPP=${ac_cv_prog_CXXCPP='sh-elf-g++ -E'}
+ac_cv_prog_DOXYGEN=${ac_cv_prog_DOXYGEN=false}
+ac_cv_prog_OBJDUMP=${ac_cv_prog_OBJDUMP=sh-elf-objdump}
+ac_cv_prog_PYTHON=${ac_cv_prog_PYTHON=python3}
+ac_cv_prog_RANLIB=${ac_cv_prog_RANLIB=/opt/toolchains/dc/sh-elf/bin/sh-elf-gcc-ranlib}
+ac_cv_prog_STRIP=${ac_cv_prog_STRIP=sh-elf-strip}
+ac_cv_prog_ac_ct_FILECMD=${ac_cv_prog_ac_ct_FILECMD=file}
+ac_cv_prog_ac_ct_MANIFEST_TOOL=${ac_cv_prog_ac_ct_MANIFEST_TOOL=mt}
+ac_cv_prog_cc_c11=${ac_cv_prog_cc_c11=}
+ac_cv_prog_cc_c89=${ac_cv_prog_cc_c89=}
+ac_cv_prog_cc_c99=${ac_cv_prog_cc_c99=}
+ac_cv_prog_cc_g=${ac_cv_prog_cc_g=yes}
+ac_cv_prog_cc_stdc=${ac_cv_prog_cc_stdc=}
+ac_cv_prog_cxx_11=${ac_cv_prog_cxx_11=no}
+ac_cv_prog_cxx_cxx11=${ac_cv_prog_cxx_cxx11=}
+ac_cv_prog_cxx_g=${ac_cv_prog_cxx_g=yes}
+ac_cv_prog_cxx_stdcxx=${ac_cv_prog_cxx_stdcxx=}
+ac_cv_prog_make_make_set=${ac_cv_prog_make_make_set=yes}
+ac_cv_safe_to_define___extensions__=${ac_cv_safe_to_define___extensions__=yes}
+ac_cv_search_clock_gettime=${ac_cv_search_clock_gettime='none required'}
+ac_cv_search_ftime=${ac_cv_search_ftime=no}
+ac_cv_sizeof_int16_t=${ac_cv_sizeof_int16_t=2}
+ac_cv_sizeof_int32_t=${ac_cv_sizeof_int32_t=4}
+ac_cv_sizeof_int64_t=${ac_cv_sizeof_int64_t=8}
+ac_cv_sizeof_int=${ac_cv_sizeof_int=4}
+ac_cv_sizeof_long=${ac_cv_sizeof_long=4}
+ac_cv_sizeof_long_long=${ac_cv_sizeof_long_long=8}
+ac_cv_sizeof_short=${ac_cv_sizeof_short=2}
+ac_cv_sizeof_u_int16_t=${ac_cv_sizeof_u_int16_t=2}
+ac_cv_sizeof_u_int32_t=${ac_cv_sizeof_u_int32_t=4}
+ac_cv_sizeof_uint16_t=${ac_cv_sizeof_uint16_t=2}
+ac_cv_sizeof_uint32_t=${ac_cv_sizeof_uint32_t=4}
+ac_cv_sizeof_uint64_t=${ac_cv_sizeof_uint64_t=8}
+ac_cv_sizeof_void_p=${ac_cv_sizeof_void_p=4}
+ac_cv_sys_file_offset_bits=${ac_cv_sys_file_offset_bits=unknown}
+ac_cv_sys_large_files=${ac_cv_sys_large_files=unknown}
+ac_cv_sys_largefile_CC=${ac_cv_sys_largefile_CC=no}
+ac_cv_sys_largefile_opts=${ac_cv_sys_largefile_opts='support not detected'}
+ac_cv_target=${ac_cv_target=sh-unknown-elf}
+ac_cv_type_off_t=${ac_cv_type_off_t=yes}
+ac_cv_type_size_t=${ac_cv_type_size_t=yes}
+am_cv_CCAS_dependencies_compiler_type=${am_cv_CCAS_dependencies_compiler_type=gcc3}
+am_cv_CC_dependencies_compiler_type=${am_cv_CC_dependencies_compiler_type=gcc3}
+am_cv_CXX_dependencies_compiler_type=${am_cv_CXX_dependencies_compiler_type=gcc3}
+am_cv_ar_interface=${am_cv_ar_interface=ar}
+am_cv_make_support_nested_variables=${am_cv_make_support_nested_variables=yes}
+am_cv_prog_cc_c_o=${am_cv_prog_cc_c_o=yes}
+ax_cv_PTHREAD_CLANG=${ax_cv_PTHREAD_CLANG=no}
+ax_cv_PTHREAD_JOINABLE_ATTR=${ax_cv_PTHREAD_JOINABLE_ATTR=PTHREAD_CREATE_JOINABLE}
+ax_cv_PTHREAD_PRIO_INHERIT=${ax_cv_PTHREAD_PRIO_INHERIT=no}
+ax_cv_PTHREAD_SPECIAL_FLAGS=${ax_cv_PTHREAD_SPECIAL_FLAGS=no}
+ax_cv_check_cflags___Wall=${ax_cv_check_cflags___Wall=yes}
+ax_cv_check_cflags___Wdouble_promotion=${ax_cv_check_cflags___Wdouble_promotion=yes}
+ax_cv_check_cflags___Wduplicated_branches=${ax_cv_check_cflags___Wduplicated_branches=yes}
+ax_cv_check_cflags___Wduplicated_cond=${ax_cv_check_cflags___Wduplicated_cond=yes}
+ax_cv_check_cflags___Wextra=${ax_cv_check_cflags___Wextra=yes}
+ax_cv_check_cflags___Wformat_2=${ax_cv_check_cflags___Wformat_2=yes}
+ax_cv_check_cflags___Wjump_misses_init=${ax_cv_check_cflags___Wjump_misses_init=yes}
+ax_cv_check_cflags___Wlogical_op=${ax_cv_check_cflags___Wlogical_op=yes}
+ax_cv_check_cflags___Wmisleading_indentation=${ax_cv_check_cflags___Wmisleading_indentation=yes}
+ax_cv_check_cflags___Wmissing_prototypes=${ax_cv_check_cflags___Wmissing_prototypes=yes}
+ax_cv_check_cflags___Wno_pedantic_ms_format=${ax_cv_check_cflags___Wno_pedantic_ms_format=yes}
+ax_cv_check_cflags___Wnull_dereference=${ax_cv_check_cflags___Wnull_dereference=yes}
+ax_cv_check_cflags___Wrestrict=${ax_cv_check_cflags___Wrestrict=yes}
+ax_cv_check_cflags___Wshadow=${ax_cv_check_cflags___Wshadow=yes}
+ax_cv_check_cflags___Wstrict_prototypes=${ax_cv_check_cflags___Wstrict_prototypes=yes}
+ax_cv_check_cflags___fexceptions=${ax_cv_check_cflags___fexceptions=yes}
+ax_cv_check_cflags___fno_strict_aliasing=${ax_cv_check_cflags___fno_strict_aliasing=yes}
+ax_cv_check_cflags___pedantic=${ax_cv_check_cflags___pedantic=yes}
+ax_cv_check_cxxflags___Wall=${ax_cv_check_cxxflags___Wall=yes}
+ax_cv_check_cxxflags___Wextra=${ax_cv_check_cxxflags___Wextra=yes}
+ax_cv_check_cxxflags___fexceptions=${ax_cv_check_cxxflags___fexceptions=yes}
+ax_cv_check_cxxflags___fno_strict_aliasing=${ax_cv_check_cxxflags___fno_strict_aliasing=yes}
+ax_cv_check_ldflags___fno_strict_aliasing=${ax_cv_check_ldflags___fno_strict_aliasing=yes}
+cc_cv_attribute_visibility_default=${cc_cv_attribute_visibility_default=yes}
+cc_cv_cflags__Wall=${cc_cv_cflags__Wall=yes}
+cc_cv_cflags__Werror=${cc_cv_cflags__Werror=yes}
+cc_cv_cflags__Wextra=${cc_cv_cflags__Wextra=yes}
+cc_cv_cflags__Wno_long_long=${cc_cv_cflags__Wno_long_long=yes}
+cc_cv_cflags__Wno_parentheses=${cc_cv_cflags__Wno_parentheses=yes}
+cc_cv_cflags__fvisibility_hidden=${cc_cv_cflags__fvisibility_hidden=yes}
+cc_cv_cflags__pedantic=${cc_cv_cflags__pedantic=yes}
+cc_cv_cflags__std_c89=${cc_cv_cflags__std_c89=yes}
+cc_cv_flag_visibility=${cc_cv_flag_visibility=yes}
+cc_cv_werror=${cc_cv_werror=-Werror}
+expatcfg_cv_compiler_supports_visibility=${expatcfg_cv_compiler_supports_visibility=yes}
+lt_cv_ar_at_file=${lt_cv_ar_at_file=@}
+lt_cv_archive_cmds_need_lc=${lt_cv_archive_cmds_need_lc=no}
+lt_cv_deplibs_check_method=${lt_cv_deplibs_check_method=unknown}
+lt_cv_file_magic_cmd=${lt_cv_file_magic_cmd='$MAGIC_CMD'}
+lt_cv_file_magic_test_file=${lt_cv_file_magic_test_file=}
+lt_cv_ld_reload_flag=${lt_cv_ld_reload_flag=-r}
+lt_cv_nm_interface=${lt_cv_nm_interface='BSD nm'}
+lt_cv_objdir=${lt_cv_objdir=.libs}
+lt_cv_path_LD=${lt_cv_path_LD=/opt/toolchains/dc/sh-elf/sh-elf/bin/ld}
+lt_cv_path_LDCXX=${lt_cv_path_LDCXX=/opt/toolchains/dc/sh-elf/sh-elf/bin/ld}
+lt_cv_path_NM=${lt_cv_path_NM='/opt/toolchains/dc/sh-elf/bin/sh-elf-nm -B'}
+lt_cv_path_mainfest_tool=${lt_cv_path_mainfest_tool=no}
+lt_cv_prog_compiler_c_o=${lt_cv_prog_compiler_c_o=yes}
+lt_cv_prog_compiler_c_o_CXX=${lt_cv_prog_compiler_c_o_CXX=yes}
+lt_cv_prog_compiler_pic=${lt_cv_prog_compiler_pic='-fPIC -DPIC'}
+lt_cv_prog_compiler_pic_CXX=${lt_cv_prog_compiler_pic_CXX='-fPIC -DPIC'}
+lt_cv_prog_compiler_pic_works=${lt_cv_prog_compiler_pic_works=yes}
+lt_cv_prog_compiler_pic_works_CXX=${lt_cv_prog_compiler_pic_works_CXX=yes}
+lt_cv_prog_compiler_rtti_exceptions=${lt_cv_prog_compiler_rtti_exceptions=no}
+lt_cv_prog_compiler_static_works=${lt_cv_prog_compiler_static_works=yes}
+lt_cv_prog_compiler_static_works_CXX=${lt_cv_prog_compiler_static_works_CXX=no}
+lt_cv_prog_gnu_ld=${lt_cv_prog_gnu_ld=yes}
+lt_cv_prog_gnu_ldcxx=${lt_cv_prog_gnu_ldcxx=yes}
+lt_cv_sharedlib_from_linklib_cmd=${lt_cv_sharedlib_from_linklib_cmd='printf %s\n'}
+lt_cv_sys_global_symbol_pipe=${lt_cv_sys_global_symbol_pipe='/usr/bin/sed -n -e '\''s/^.*[	 ]\([ABCDGIRSTW][ABCDGIRSTW]*\)[	 ][	 ]*_\([_A-Za-z][_A-Za-z0-9]*\)$/\1 _\2 \2/p'\'' | /usr/bin/sed '\''/ __gnu_lto/d'\'''}
+test ${lt_cv_sys_global_symbol_to_c_name_address+y} || lt_cv_sys_global_symbol_to_c_name_address='/usr/bin/sed -n -e '\''s/^: \(.*\) .*$/  {"\1", (void *) 0},/p'\'' -e '\''s/^[ABCDGIRSTW][ABCDGIRSTW]* .* \(.*\)$/  {"\1", (void *) \&\1},/p'\'''
+test ${lt_cv_sys_global_symbol_to_c_name_address_lib_prefix+y} || lt_cv_sys_global_symbol_to_c_name_address_lib_prefix='/usr/bin/sed -n -e '\''s/^: \(.*\) .*$/  {"\1", (void *) 0},/p'\'' -e '\''s/^[ABCDGIRSTW][ABCDGIRSTW]* .* \(lib.*\)$/  {"\1", (void *) \&\1},/p'\'' -e '\''s/^[ABCDGIRSTW][ABCDGIRSTW]* .* \(.*\)$/  {"lib\1", (void *) \&\1},/p'\'''
+lt_cv_sys_global_symbol_to_cdecl=${lt_cv_sys_global_symbol_to_cdecl='/usr/bin/sed -n -e '\''s/^T .* \(.*\)$/extern int \1();/p'\'' -e '\''s/^[ABCDGIRSTW][ABCDGIRSTW]* .* \(.*\)$/extern char \1;/p'\'''}
+lt_cv_sys_global_symbol_to_import=${lt_cv_sys_global_symbol_to_import=}
+lt_cv_sys_max_cmd_len=${lt_cv_sys_max_cmd_len=1572864}
+lt_cv_to_host_file_cmd=${lt_cv_to_host_file_cmd=func_convert_file_noop}
+lt_cv_to_tool_file_cmd=${lt_cv_to_tool_file_cmd=func_convert_file_noop}
+lt_cv_truncate_bin=${lt_cv_truncate_bin='/usr/bin/dd bs=4096 count=1'}
+pkg_cv_BZIP2_CFLAGS=${pkg_cv_BZIP2_CFLAGS=-I/opt/toolchains/dc/kos/../kos-ports/include/bzlib}
+pkg_cv_BZIP2_LIBS=${pkg_cv_BZIP2_LIBS=-lbz2}
+pkg_cv_DEPS_CFLAGS=${pkg_cv_DEPS_CFLAGS='-I/opt/toolchains/dc/kos/../kos-ports/include -I/opt/toolchains/dc/kos/../kos-ports/include/opus'}
+pkg_cv_DEPS_LIBS=${pkg_cv_DEPS_LIBS='-lopus -logg'}
+pkg_cv_LIBPNG_CFLAGS=${pkg_cv_LIBPNG_CFLAGS='-I/opt/toolchains/dc/kos/../kos-ports/include/png -std=gnu11'}
+pkg_cv_LIBPNG_LIBS=${pkg_cv_LIBPNG_LIBS=-lpng}
+pkg_cv_ZLIB_CFLAGS=${pkg_cv_ZLIB_CFLAGS=-I/opt/toolchains/dc/kos/../kos-ports/include/zlib}
+pkg_cv_ZLIB_LIBS=${pkg_cv_ZLIB_LIBS=-lz}
