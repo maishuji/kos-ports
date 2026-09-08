@@ -13,6 +13,11 @@ error_count=0
 for _dir in ${KOS_PORTS}/* ; do
     if [ -d "${_dir}" ] ; then
         if [ -f "${_dir}/Makefile" ] ; then
+            if [ "${_dir##*/}" = "libKGL" ] ; then
+                echo "Skipping libKGL in build-all."
+                continue
+            fi
+
             echo "Checking if ${_dir} is installed and up-to-date..."
             ${KOS_MAKE} -C "${_dir}" version-check > /dev/null 2>&1
             rv=$?
